@@ -8,4 +8,7 @@ ES (Marco della Rovere => MARCO DELLA ROVERE);
 3. Dobbiamo creare una lista di tutti gli studenti che hanno un totale di voti superiore a 70 e id
 superiore a 120
 ## Svolgimento
-- 
+- creo la mia lista di studenti con i dati
+- usando il toUpperCase ciclando con il foreach faccio diventare tutti i nomi in maiuscolo in un nuovo array
+- sempre con i cicli for each usando il filter vado a filtrare i dati richiesti e li stampo in diversi array
+-  stampo tutto in console

@@ -36,14 +36,14 @@ const studenti=[
   },
 ];
 
-const upperCase = [];
+const upperCaseList = [];
 
 
 studenti.forEach(studente =>{
-  upperCase.push(upperCase(studente.name))
+  upperCaseList.push(studente.name.toUpperCase())
 })
 
-console.log(upperCase)
+console.log(upperCaseList)
 
 
 
@@ -55,8 +55,7 @@ const elencoOver70 = studenti.filter((studente) =>{
 console.log(elencoOver70)
 
 const elencoOver120 = studenti.filter((studente) =>{
-  if(studente.voti < 70);
-  else if(studente.id >= 120) return true;
+  if(studente.voti > 70 && studente.id >= 120) return true;
   return false;
 })
 

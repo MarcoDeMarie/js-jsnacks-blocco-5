@@ -61,3 +61,7 @@ const elencoOver120 = studenti.filter((studente) =>{
 
 console.log(elencoOver120)
 
+
+
+
+
